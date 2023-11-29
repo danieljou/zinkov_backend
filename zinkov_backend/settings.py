@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-    # "default": dj_database_url.parse('postgres://zinkov_user:BRRWEDM08suBmAI18SJG6YxCcMxPYSI9@dpg-cljq49pll56s73bo7ul0-a.oregon-postgres.render.com/zinkov')
+    # "default": dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
@@ -126,6 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
