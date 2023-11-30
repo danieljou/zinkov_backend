@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = [".vercel.app"]
 # ALLOWED_HOSTS = []
 
-ROOT_URLCONF = 'render.urls'
+# ROOT_URLCONF = 'render.urls'
 
 # Application definition
 
@@ -116,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fr-Fr'
 
 TIME_ZONE = 'UTC'
 
@@ -174,7 +174,7 @@ EMAIL_USE_SSL = True
 EMAIL_HOST_USER = 'danieltiomelajou@gmail.com'
 EMAIL_HOST_PASSWORD = 'gbjvmcqfscsmznfq'
 
-FRONTEND_URL = 'https://zinkov.welldoneplanet.com/'
+FRONTEND_URL = 'https://zinkov-web-vercel.vercel.app/'
 
 AUTH_USER_MODEL = 'api.User'
 

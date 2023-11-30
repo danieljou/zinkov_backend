@@ -14,6 +14,7 @@ class User(AbstractUser):
     id = models.CharField(primary_key=True, default=generate_unique_id, editable=False, max_length=36)
     is_team_manager = models.BooleanField(default=False)
     country = models.CharField(max_length=50)
+    email = models.EmailField(null=False, blank=False, max_length=254, unique=True)
     RULES_CHOICES = [
         ('Chef de délégation','Chef de délégation'),
         ('Jury / Organisme de contrôle','Jury / Organisme de contrôle'),
