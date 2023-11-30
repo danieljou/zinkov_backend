@@ -173,11 +173,12 @@ EMAIL_USE_SSL = True
 EMAIL_HOST_USER = 'danieltiomelajou@gmail.com'
 EMAIL_HOST_PASSWORD = 'gbjvmcqfscsmznfq'
 
-FRONTEND_URL = 'http://localhost:5173/'
+FRONTEND_URL = 'https://zinkov.welldoneplanet.com/'
 
 AUTH_USER_MODEL = 'api.User'
 
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
     'http://localhost:5173',
+    'https://zinkov.welldoneplanet.com'
 ]
