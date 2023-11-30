@@ -30,6 +30,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [".vercel.app"]
+# ALLOWED_HOSTS = []
 
 ROOT_URLCONF = 'render.urls'
 
@@ -180,5 +181,5 @@ AUTH_USER_MODEL = 'api.User'
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
     'http://localhost:5173',
-    'https://zinkov.welldoneplanet.com'
+    'https://zinkov-web-vercel.vercel.app'
 ]
