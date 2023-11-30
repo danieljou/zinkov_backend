@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url
 import os
 from datetime import timedelta
 
@@ -29,8 +28,10 @@ SECRET_KEY = 'django-insecure-ns2dxs6pxh-*)kmik^=m*z*8@@(i_rb7$(09b0rep)*ss-hh_x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = [".vercel.app"]
+
+ROOT_URLCONF = 'render.urls'
 
 # Application definition
 
