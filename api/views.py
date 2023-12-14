@@ -27,7 +27,7 @@ def check_session(request):
 DELEGATIONS_TYPES = [
     'Officie',
     'Membre du gouvernement',
-    'Chef de délagation',
+    'Chef de délégation',
     'Chef de mission', 
     'Administrateif', 
     'Entraîneur',

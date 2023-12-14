@@ -47,7 +47,7 @@ class Participant(models.Model):
         ('Antidopage', 'Antidopage'),
         ('Officiel', 'Officiel'),
         ('Membre du gouvernement', 'Membre du gouvernement'),
-        ('Chef de délagation', 'Chef de délagation'),
+        ('Chef de délégation', 'Chef de délégation'),
         ('Chef de mission', 'Chef de mission'),
         ('Administrateif', 'Administrateif'),
         ('Entraîneur', 'Entraîneur'),

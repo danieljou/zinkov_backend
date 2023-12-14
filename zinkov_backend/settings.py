@@ -29,8 +29,8 @@ SECRET_KEY = 'django-insecure-ns2dxs6pxh-*)kmik^=m*z*8@@(i_rb7$(09b0rep)*ss-hh_x
 DEBUG = True
 
 
-ALLOWED_HOSTS = [".vercel.app"]
-# ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = [".vercel.app"]
+ALLOWED_HOSTS = []
 
 # ROOT_URLCONF = 'render.urls'
 
@@ -92,7 +92,7 @@ DATABASES = {
     # "default": dj_database_url.parse("postgres://zinkov_user:BRRWEDM08suBmAI18SJG6YxCcMxPYSI9@dpg-cljq49pll56s73bo7ul0-a.oregon-postgres.render.com/zinkov")
 }
 
-DATABASES['default'] = dj_database_url.parse("postgres://zinkovdatabase_user:NCkM8qEaIadZ4UpsYpefSVuUcwtDGPkN@dpg-clk6eaeukbfc7391pkm0-a.oregon-postgres.render.com/zinkovdatabase")
+# DATABASES['default'] = dj_database_url.parse("postgres://zinkovdatabase_user:NCkM8qEaIadZ4UpsYpefSVuUcwtDGPkN@dpg-clk6eaeukbfc7391pkm0-a.oregon-postgres.render.com/zinkovdatabase")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
